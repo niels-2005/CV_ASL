@@ -17,6 +17,7 @@ from sklearn.metrics import (
 )
 from tensorflow.keras.models import Model
 
+
 def plot_training_history(history: dict, figsize: tuple[int, int]) -> None:
     """
     Plots the loss and accuracy curves for training and validation in a vertical layout.
